@@ -1,0 +1,13 @@
+(env) steven@steven-HP-Pavilion-Plus-Laptop-14-eh1xxx:~/Python/psf-programmatic$ python3 verify_and_update_product.py 
+INFO: Loaded environment variables.
+
+--- STEP 1: Searching for product named 'Lyckas på Amazon' ---
+SUCCESS: Found product.
+  Product ID: 67ea52a546736ce906eb19d4
+  Product Name: Lyckas på Amazon
+  API reports current Product Type as: 'DIGITAL'
+
+--- STEP 2: Product type is 'DIGITAL'. Attempting to update to 'PHYSICAL' ---
+ERROR: HTTP error occurred: 403 Client Error: Forbidden for url: https://services.leadconnectorhq.com/products/67ea52a546736ce906eb19d4
+  Response Text: {"message":"Forbidden resource","error":"Forbidden","statusCode":403}
+(env) steven@steven-HP-Pavilion-Plus-Laptop-14-eh1xxx:~/Python/psf-programmatic$ 

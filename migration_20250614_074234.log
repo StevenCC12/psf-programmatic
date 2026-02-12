@@ -1,0 +1,3 @@
+2025-06-14 07:42:34,700 - INFO - Contact migration script initialized
+2025-06-14 07:42:34,700 - INFO - Starting contact migration process
+2025-06-14 07:42:34,700 - ERROR - Missing required environment variables: ['PSF_BEARER_TOKEN']

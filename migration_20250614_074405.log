@@ -1,0 +1,52 @@
+2025-06-14 07:44:05,359 - INFO - Contact migration script initialized
+2025-06-14 07:44:05,359 - INFO - Starting contact migration process
+2025-06-14 07:44:05,359 - INFO - Configuration validated successfully
+2025-06-14 07:44:08,088 - INFO - Using existing AC list ID: 3
+2025-06-14 07:44:08,088 - INFO - Processing page 1
+2025-06-14 07:44:08,088 - INFO - Searching PSF contacts (page limit: 100)
+2025-06-14 07:44:08,614 - INFO - Retrieved 100 contacts from PSF
+2025-06-14 07:44:10,761 - INFO - Created custom field 'country' with ID: 1
+2025-06-14 07:44:12,852 - INFO - Created custom field 'source' with ID: 2
+2025-06-14 07:44:15,779 - INFO - Created custom field 'type' with ID: 3
+2025-06-14 07:44:17,726 - INFO - Created custom field 'tags' with ID: 4
+2025-06-14 07:44:20,899 - INFO - Created custom field 'PSF_Custom_Wdaz6NfGex7iKTLQBkpn' with ID: 5
+2025-06-14 07:44:24,164 - INFO - Created custom field 'PSF_Custom_V4g5kGuiskUpX8WTBoSp' with ID: 6
+2025-06-14 07:44:28,944 - INFO - Created custom field 'PSF_Custom_uhbzdX8bD8xLD8srltAM' with ID: 7
+2025-06-14 07:44:31,959 - INFO - Created custom field 'PSF_Custom_dr3YcJHVjWvzSo0IpwiO' with ID: 8
+2025-06-14 07:44:34,154 - INFO - Created custom field 'PSF_Custom_fD5QCmuJXInbkvuKXXPT' with ID: 9
+2025-06-14 07:44:36,259 - INFO - Created custom field 'PSF_Custom_WJeY9FySmI29HDGqoWXm' with ID: 10
+2025-06-14 07:44:39,330 - INFO - Created custom field 'PSF_Custom_9c2W0IK6Vzpx7EegKlMT' with ID: 11
+2025-06-14 07:44:41,593 - INFO - Created custom field 'PSF_Custom_0epZCdaxBKSEn7K7PHIQ' with ID: 12
+2025-06-14 07:44:44,404 - INFO - Created custom field 'PSF_Custom_rYb4CpIOex1MfuVsogPq' with ID: 13
+2025-06-14 07:44:46,601 - INFO - Created custom field 'PSF_Custom_perhZCYdvWztq5MpYPgv' with ID: 14
+2025-06-14 07:44:47,756 - INFO - Successfully migrated: nicolau.kjeldsen@gmail.com (AC ID: 2)
+2025-06-14 07:44:49,757 - ERROR - Exception processing contact alex@davidjpphillips.com: sequence item 0: expected str instance, dict found
+2025-06-14 07:44:53,565 - INFO - Successfully migrated: emma_form@hotmail.com (AC ID: 3)
+2025-06-14 07:44:59,441 - INFO - Successfully migrated: alfredericoleamark@gmail.com (AC ID: 4)
+2025-06-14 07:45:04,292 - INFO - Created custom field 'address' with ID: 15
+2025-06-14 07:45:07,193 - INFO - Created custom field 'city' with ID: 16
+2025-06-14 07:45:09,232 - INFO - Created custom field 'state' with ID: 17
+2025-06-14 07:45:11,478 - INFO - Created custom field 'postalCode' with ID: 18
+2025-06-14 07:45:14,621 - INFO - Successfully migrated: gustav.morelius@hotmail.com (AC ID: 5)
+2025-06-14 07:45:17,424 - INFO - Successfully migrated: nik.jonsson@gmail.com (AC ID: 6)
+2025-06-14 07:45:21,518 - INFO - Created custom field 'PSF_Custom_B7w5PWRHf2iYkCHc1YMv' with ID: 19
+2025-06-14 07:45:22,544 - INFO - Successfully migrated: carlos.abel.nika@gmail.com (AC ID: 7)
+2025-06-14 07:45:25,616 - INFO - Successfully migrated: j_davidsson@icloud.com (AC ID: 8)
+2025-06-14 07:45:29,509 - INFO - Successfully migrated: patriciavuc@hotmail.se (AC ID: 9)
+2025-06-14 07:45:32,732 - INFO - Successfully migrated: vlado_m@hotmail.com (AC ID: 10)
+2025-06-14 07:45:36,880 - INFO - Successfully migrated: guitaren@hotmail.com (AC ID: 11)
+2025-06-14 07:45:40,267 - INFO - Successfully migrated: kerstin.hornfeldt@telia.com (AC ID: 12)
+2025-06-14 07:45:43,323 - INFO - Successfully migrated: ewa.akerlind@gmail.com (AC ID: 13)
+2025-06-14 07:45:46,320 - INFO - Successfully migrated: kpallman@hotmail.com (AC ID: 14)
+2025-06-14 07:45:49,372 - INFO - Successfully migrated: katja@plume.se (AC ID: 15)
+2025-06-14 07:45:52,268 - INFO - Successfully migrated: susann@profsafe.se (AC ID: 16)
+2025-06-14 07:45:56,603 - INFO - Successfully migrated: jens_rosen@hotmail.com (AC ID: 17)
+2025-06-14 07:46:01,045 - INFO - Created custom field 'PSF_Custom_UMgGV5PhOTLy38bCEDkN' with ID: 20
+2025-06-14 07:46:02,890 - INFO - Created custom field 'PSF_Custom_gWzoL0bdqlhnvbp0mBiM' with ID: 21
+2025-06-14 07:46:05,248 - INFO - Successfully migrated: bo.aggerborg@cigbuster.se (AC ID: 18)
+2025-06-14 07:46:08,624 - INFO - Successfully migrated: jesusmylordtoday@yahoo.com (AC ID: 19)
+2025-06-14 07:46:11,899 - INFO - Successfully migrated: joar@hijabfactory.com (AC ID: 20)
+2025-06-14 07:46:16,592 - INFO - Successfully migrated: fitnezzforlife09@gmail.com (AC ID: 21)
+2025-06-14 07:46:20,707 - INFO - Successfully migrated: reeli6@gmail.com (AC ID: 22)
+2025-06-14 07:46:25,007 - INFO - Successfully migrated: andreas.politis@hotmail.com (AC ID: 23)
+2025-06-14 07:46:29,638 - INFO - Successfully migrated: imnaabdulzahra233@yahoo.com (AC ID: 24)
