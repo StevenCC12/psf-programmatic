@@ -11,7 +11,7 @@ print("INFO: Loaded environment variables.")
 PSF_ACCESS_TOKEN = os.getenv("PSF_ACCESS_TOKEN")
 PSF_LOCATION_ID = os.getenv("PSF_LOCATION_ID") 
 GHL_API_BASE_URL = "https://services.leadconnectorhq.com"
-EMAIL_TO_FIND = "erik@ewcinvest.com" # The email we are searching for
+EMAIL_TO_FIND = "larryreborn@gmail.com" # The email we are searching for
 
 def find_ghl_contact_by_email():
     """
@@ -64,8 +64,11 @@ def find_ghl_contact_by_email():
 
     except requests.exceptions.HTTPError as http_err:
         print(f"ERROR: HTTP error during API test: {http_err}")
-        print(f"  Status Code: {response.status_code}")
-        print(f"  Response Text: {response.text}")
+        
+        # Access the response directly from the exception object
+        if http_err.response is not None:
+            print(f"  Status Code: {http_err.response.status_code}")
+            print(f"  Response Text: {http_err.response.text}")
     except Exception as err:
         print(f"ERROR: An unexpected error occurred: {err}")
 
